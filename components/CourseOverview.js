@@ -31,7 +31,7 @@ const CourseOverview = () => {
   const [courses, setCourses] = React.useState([]);
   React.useEffect(() => {
     const getCourses = async () => {
-      const res = await Axios.get(`http://localhost:3000/api/courses`);
+      const res = await Axios.get(`https://lms-ubg.vercel.app/api/courses`);
       const data = res.data;
       setCourses(data);
     };
