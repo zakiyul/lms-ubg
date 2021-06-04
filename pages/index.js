@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import PageNav from "../components/PageNav";
 import Navigation from "../components/Navigation";
+import CourseOverview from "../components/CourseOverview";
 
 export default function Home() {
   return (
@@ -18,14 +18,7 @@ export default function Home() {
       <Header />
       <PageNav />
       <Navigation />
-      <div className="p-20">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eaque
-          inventore neque vero quis omnis vitae quisquam voluptates. Esse
-          debitis non delectus ea praesentium eos voluptas natus cum, nulla
-          deserunt.
-        </p>
-      </div>
+      <CourseOverview />
     </div>
   );
 }
