@@ -29,7 +29,7 @@ const Navigation = () => {
   const [showPages, setShowPages] = React.useState(false);
   const [showCourse, setShowCourse] = React.useState(false);
   return (
-    <div className="px-5 md:px-10 my-5">
+    <div className="">
       <div className="p-3 bg-gray-200 rounded">
         <h3 className="text-gray-500 text-base font-semibold mb-3">
           NAVIGATION

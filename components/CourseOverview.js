@@ -38,7 +38,7 @@ const CourseOverview = () => {
     getCourses();
   }, []);
   return (
-    <div className="px-5 md:px-10 py-2">
+    <div className="">
       <div className="bg-gray-200 p-3 rounded">
         <h3 className="uppercase text-gray-500 text-base font-semibold mb-3">
           Course Overview

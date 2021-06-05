@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import PageNav from "../components/PageNav";
 import Navigation from "../components/Navigation";
 import CourseOverview from "../components/CourseOverview";
+import UpcomingEvents from "../components/UpcomingEvents";
 
 export default function Home() {
   return (
@@ -17,8 +18,11 @@ export default function Home() {
       <Navbar />
       <Header />
       <PageNav />
-      <Navigation />
-      <CourseOverview />
+      <div className="grid md:grid-flow-col px-5 md:px-10 py-2 gap-4 ">
+        <Navigation />
+        <CourseOverview />
+        <UpcomingEvents />
+      </div>
     </div>
   );
 }
